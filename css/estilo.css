@@ -1,0 +1,445 @@
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.header__background{
+    background-color: #caf0f8;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: linear-gradient(#caf0f8 , #48cae4);
+}
+
+.header__logo{
+    width: 50px;
+    height: 50px;
+}
+
+.header__titulo{
+    color: #03045e;
+    text-align: center;
+    font-size: 200%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.header__lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.header__titulo--li{
+    border-style: solid;
+    padding: 7px;
+    color:#03045e;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.main__background{
+    background-color: #48cae4;
+    background-image: linear-gradient( #48cae4, #caf0f8);
+    margin: 0%;
+    width: 100%;
+}
+
+.main__div{
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+    height: 600px;
+}
+.main__div--p{
+    text-align: center;
+    color:#03045e;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+
+}
+.main__div--a{
+    display: flex;
+    justify-content: center;
+}
+.main__div--video{
+    justify-content: center;
+    width: 560px;
+    height: 350px;
+}
+
+
+.contacto__form{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.contacto__form--fieldset{
+    position: relative;
+    background-color: #48cae4;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+}
+
+.contacto__form--legend{
+    text-align: center;
+}
+.contacto__form--nombre{
+    display: flex;
+    justify-content: center;
+}
+.contacto__form--p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.contacto__form--box{
+    width: 300px;
+    height: 25px;
+    margin-top: 1.5%;
+}
+
+.contacto__form--p2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.contacto__form--label{
+    padding-right: 2px;
+}
+.contacto__form--comentario{
+    width: 720px;
+    height: 100px;
+}
+.contacto__form--enviar{
+    margin-right: 35%;
+    font-size: 100%;
+}
+.contacto__form--borrar{
+    font-size: 100%;
+}
+
+
+
+
+.equipo__main--div{
+    background-color: #48cae4;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    align-items: center;
+    background-image: linear-gradient( #48cae4, #caf0f8);
+}
+
+.equipo__main--subdiv{  
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+.equipo__main--nombre{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #03045e;
+    font-size: 120%;
+    font-weight: bolder;
+    padding-left: 2rem;
+}
+
+.equipo__main--descripcion{
+    align-self: center;
+    justify-self: center;
+    padding-left: 1rem; 
+    border: solid 2px black;
+    margin-left: 2rem;
+    background-color: #caf0f8;
+    margin-right: 2rem;
+    padding-right: 1rem;
+}
+
+
+.servicio__main--div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    padding-bottom: 2rem;
+    width: 70%;
+    margin-left: 15%;
+
+}
+.servicio__main--p{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #03045e;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+.servicio__main--imagenes{
+    width: 100%;
+    height: 100%;
+}
+
+.sucursales__background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.sucursales_titulo{
+    font-size: 200%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #03045e;
+    font-weight: bolder;
+}
+.sucursales_direcciones{
+    border-style: solid;
+    color: black;
+    border-width: 4px;
+}
+
+.sucursales__mapa{
+    justify-content: center;
+}
+
+
+
+
+.footer__cambio{
+    background-color: #48cae4 ;
+    width: 100%;
+    background-image: linear-gradient( #48cae4, #caf0f8)
+}
+.footer__background{
+    background-color: #caf0f8;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.footer__lista{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10%;
+    justify-content: center;
+    height: auto;
+}
+
+.footer__lista--div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__titulos{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #03045e;
+    font-size: 110%;
+    font-weight: bold;
+}
+.footer__items{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #03045e;
+    font-size: 110%;
+    padding-top: 7%;
+}
+.footer__items--redes{
+    width: 25px;
+    height: 25px;
+    padding-right: 2px;
+}
+
+.footer__logo{
+    height: 25px;
+    width: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+    .main__div--p{
+        font-size: 150%;
+    }
+    .footer__items--redes{
+        width: 35px;
+        height: 35px;
+    }
+    .equipo__main--nombre{
+        font-size: 150%;
+    }
+    .contacto__form--legend{
+        font-size: 170%;
+    }
+    .contacto__form--nombre{
+        font-size: 130%;
+    }
+    .contacto__form--comentario{
+        width: 800px;
+        height: 300px;
+    }
+    .contacto__form--label{
+        font-size: 130%;
+    }
+    .contacto__form--enviar{
+        font-size: 100%;
+    }
+    .contacto__form--p2{
+        font-size: 130%;
+    }
+    .header__titulo--li{
+        display: table;
+        justify-content: center;
+        margin: 3px;
+        border-radius: 10px;
+        justify-content: center;
+        background-color: #c1eff8;
+        text-align: center;
+        border: #c1eff8;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .header__titulo--li{
+        display: table;
+        justify-content: center;
+        margin: 3px;
+        border-radius: 10px;
+        justify-content: center;
+        background-color: #c1eff8;
+        text-align: center;
+        border: #c1eff8;
+    }
+    .equipo__main--div{
+        display:flex ;
+        flex-direction: column;
+    }
+    .equipo__main--nombre{
+        text-align: center;
+        align-items: center;
+    }
+    .sucursales_titulo{
+        text-align: center;
+    }
+    .footer__background{
+        width: 100%;
+        height: auto;
+    }
+    .contacto__form--comentario{
+        width: 600px;
+        height: 200px;
+    }
+    .footer__lista{
+        padding-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .header__titulo{
+        font-size: 140%;
+    }
+    .header__logo{
+        width: 20px;
+        height: 20px;
+    }
+    .header__titulo--li{
+        display: table;
+        justify-content: center;
+        margin: 3px;
+        border-radius: 10px;
+        justify-content: center;
+        background-color: #c1eff8;
+        text-align: center;
+        border: #c1eff8;
+    }
+    .contacto__form--fieldset{
+        width: 10px;
+    }
+
+    .equipo__main--div{
+        display:flex ;
+        flex-direction: column; 
+    }
+    .equipo__main--nombre{
+        text-align: center;
+        align-items: center;
+    }
+    .equipo__main--subdiv{
+        padding: 0%;
+        margin: 0%;
+    }
+    .equipo__main--descripcion{
+        margin-top: 20px;
+    }
+    .servicio__main--imagenes{
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding-left: 5%;
+
+    }
+    .sucursales_titulo{
+        text-align: center;
+    }
+    .sucursales_direcciones{
+        border-width: 2px;
+    }
+    .sucursales__mapa{
+        width: 90%;
+    }
+
+    .footer__lista{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .footer__background{
+        width: 100%;
+        height: auto;
+    }
+
+    .contacto__form{
+        width: 100%;
+    }
+    .contacto__form--fieldset{
+        width: 100%;
+    }
+    .contacto__form--comentario{
+        width: 90%;
+        height: 150px;
+    }
+    .contacto__form--box{
+        margin-left: 1px;
+        width: 50%;
+        height: 30px;
+    }
+    .main__div--video{
+        width: 90%;
+        height: 300px;
+    }
+    .contacto__form--enviar{
+        font-size: 80%;
+    }
+    .contacto__form--borrar{
+        font-size: 80%;
+    }
+    .contacto__form--p{
+        margin: 0px;
+    }
+}
