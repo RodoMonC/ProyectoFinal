@@ -445,12 +445,15 @@
     .equipo__main--descripcion{
         margin-top: 20px;
     }
+    .equipo__main--btn{
+
+        padding-top: 1rem;
+    }
     .servicio__main--imagenes{
         position: relative;
         justify-content: center;
         width: 70%;
         padding-left: 10%;
-
     }
     .sucursales_titulo{
         text-align: center;
