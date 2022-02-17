@@ -81,22 +81,6 @@
     padding-top: 1rem;
 
 }
-.main__div--a{
-    display: inline-block;
-    justify-content: center;
-    line-height: 1rem;
-    width: 560px;
-    height: 315px;
-}
-.main__div--video{
-    justify-content: center;
-    display: inline-block;
-    width: 560px;
-    height: 350px;
-}
-
-
-
 
 .main__divnoticias{
     padding-top: 1rem;
@@ -124,24 +108,21 @@
 
 
 
-.contacto__form{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: auto;
-    justify-items: center;
-    align-items: center;
-    padding-top: 3rem;
-    padding-bottom: 50px;
-    width: 100%;
+
+.contacto__div{
+    height: 700px;
+    overflow: hidden;
 }
 
 .contacto__form--fieldset{
     position: relative;
     background-color: #48cae4;
+    display: grid;
+    grid-template-columns: auto;
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    width: 100%;
+    width: 50%;
 }
 
 .contacto__form--legend{
@@ -151,31 +132,7 @@
     display: flex;
     justify-content: center;
 }
-.contacto__form--p{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-right: 1rem;
-    font-weight: bold;
-}
 
-.contacto__form--box{
-    width: 300px;
-    height: 25px;
-    margin-top: 1.5%;
-}
-
-.contacto__form--p2{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-right: 1rem;
-    font-weight: bold;
-    text-align: center;
-}
-.contacto__form--label{
-    padding-right: 2px;
-}
-.contacto__form--comentario{
-    width: 720px;
-    height: 100px;
-}
 .contacto__form--enviar{
     margin-right: 35%;
     font-size: 100%;
@@ -183,6 +140,13 @@
 .contacto__form--borrar{
     font-size: 100%;
 }
+.contacto__form--padding{
+    margin-bottom: 3rem;
+}
+
+
+
+
 
 
 
