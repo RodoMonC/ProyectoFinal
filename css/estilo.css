@@ -248,17 +248,13 @@
     color: #03045e;
     font-weight: bolder;
 }
-.sucursales_direcciones{
-    border-style: solid;
-    color: black;
-    border-width: 4px;
-}
-
 .sucursales__mapa{
     justify-content: center;
 }
-
-
+.sucursales_tabla{
+    margin: auto;
+    width: 60%;
+}
 
 
 .footer__cambio{
