@@ -105,7 +105,9 @@
     text-align: justify;
 }
 
-
+.main__videos{
+    width: 100%;
+}
 
 
 
@@ -143,13 +145,6 @@
 .contacto__form--padding{
     margin-bottom: 3rem;
 }
-
-
-
-
-
-
-
 
 .equipo__main--div{
     background-color: #48cae4;
@@ -489,10 +484,6 @@
         width: 50%;
         height: 30px;
     }
-    .main__div--video{
-        width: 90%;
-        height: 300px;
-    }
     .contacto__form--enviar{
         font-size: 80%;
     }
@@ -508,5 +499,4 @@
         flex-direction: column;
         padding-left: 10px;
     }
-
 }
