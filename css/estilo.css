@@ -115,7 +115,9 @@
     height: 700px;
     overflow: hidden;
 }
-
+.contacto__form--div{
+    width: 100%;
+}
 .contacto__form--fieldset{
     position: relative;
     background-color: #48cae4;
@@ -400,6 +402,9 @@
     .footer__lista{
         padding-bottom: 20px;
     }
+    .contacto__form--fieldset{
+        width: 80%;
+    }
 }
 
 
@@ -499,4 +504,11 @@
         flex-direction: column;
         padding-left: 10px;
     }
+    .contacto__form--div{
+        padding-left: 10px;
+    }
+    .contacto__div{
+        height: auto;
+    }
+
 }
