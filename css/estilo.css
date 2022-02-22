@@ -140,9 +140,11 @@
 .contacto__form--enviar{
     margin-right: 35%;
     font-size: 100%;
+    margin-top: 10px;
 }
 .contacto__form--borrar{
     font-size: 100%;
+    margin-top: 10px;
 }
 .contacto__form--padding{
     margin-bottom: 3rem;
@@ -366,6 +368,9 @@
         text-align: center;
         border: #c1eff8;
     }
+    .contacto__form--fieldset{
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -403,7 +408,7 @@
         padding-bottom: 20px;
     }
     .contacto__form--fieldset{
-        width: 80%;
+        width: 90%;
     }
 }
 
