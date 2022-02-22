@@ -223,6 +223,17 @@
     width: 60%;
 }
 
+    
+ tr:hover {
+    background-color: rgba(183, 216, 63, 0.815);
+    font-weight: bold;
+}
+    
+    
+tr:hover .seleccionado {
+    background-color: rgb(107, 196, 238);
+    font-weight: bold;
+}
 
 .footer__cambio{
     background-color: #48cae4 ;
