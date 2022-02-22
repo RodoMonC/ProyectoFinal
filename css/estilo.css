@@ -4,55 +4,28 @@
     padding: 0;
 }
 
-.header__background{
-    background-color: #caf0f8;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-image: linear-gradient(#caf0f8 , #48cae4);
-}
 
 .header__logo{
     width: 50px;
     height: 50px;
 }
 
-.header__titulo{
-    color: #03045e;
-    text-align: center;
-    font-size: 200%;
+.header__titulo--items{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
 }
 
 .header__lista{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    justify-content: end;
+    width: 100%;
 }
-.header__titulo--items{
-    color:#03045e;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-style: none;
-    border-radius: 5px;
-    background-color: #c3eef8;
-    text-align: center;
-    margin-right: 10px;
-    height: 25px;
-    width: 95px;
-    filter: grayscale(0%);
-}
-
-.links__sindecorar{
-    text-decoration: none;
-}
-
 .header__titulo--items:hover{
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    transition: all 0.2s;
-    background-color: #a6a7a8;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    transition: all 0.4s;
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
+    border-radius: 20px;
 }
 
 .main__background{
@@ -63,16 +36,6 @@
     padding-top: 2rem;
 }
 
-
-
-
-.main__div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 10px;
-    height: 600px;
-}
 .main__div__card3{
     width: 100%;
 }
@@ -201,11 +164,14 @@
     width: 500px;
     height: 250px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     justify-self: center;
 }
-.servicio__main--padb{
-    padding-bottom: 3rem;
+.servicio__main{
+    width: 100%;
+}
+.servicio__div{
+    width: auto;
 }
 
 .scale-up-center:hover {
@@ -264,7 +230,6 @@
     background-image: linear-gradient( #48cae4, #caf0f8)
 }
 .footer__background{
-    background-color: #caf0f8;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -289,12 +254,13 @@
     color: #03045e;
     font-size: 110%;
     font-weight: bold;
+    padding-top: 5px;
 }
 .footer__items{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #03045e;
     font-size: 110%;
-    padding-top: 7%;
+    padding-top: 10px;
     text-decoration: none;
 }
 
@@ -307,8 +273,8 @@
 }
 
 .footer__items--redes{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     padding-right: 2px;
 }
 
@@ -325,7 +291,7 @@
       height: 2px;
       left: 0%;
       position: relative;
-      background: rgb(8, 8, 8);
+      background: rgb(248, 191, 2);
       transition: width 0.7s ease 0s, left 0.7s ease 0s;
       width: 0;
 }
@@ -484,9 +450,7 @@
         padding-top: 1rem;
     }
     .servicio__main--imagenes{
-        position: relative;
-        justify-content: center;
-        width: 70%;
+        width: 100%;
         padding-left: 10%;
     }
     .sucursales_titulo{
@@ -553,4 +517,20 @@
     main div div {
         margin-bottom: 10px;
     }
+
+    .header__logo{
+        width: 50px;
+        height: 50px;
+    }
+    .servicio__main{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .servicio__main--p{
+        justify-self: center;
+    }
+
 }
