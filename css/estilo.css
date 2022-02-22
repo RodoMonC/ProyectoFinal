@@ -78,8 +78,15 @@
     width: 100%;
 }
 
-
-
+.main__cartas{
+    width: 100%;
+}
+.main__cartas:hover{
+  opacity: 1;
+  transform:scale(1.04);
+  transition: 0.1s;
+  background-color: lightsteelblue;
+}
 .contacto__div{
     height: 700px;
     overflow: hidden;
@@ -309,6 +316,9 @@ tr:hover .seleccionado {
 .footer__items:hover::after{
     width: 100%; 
     left: 0; 
+}
+.footer__items--redes:hover{
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 1024px) {
@@ -542,6 +552,9 @@ tr:hover .seleccionado {
     }
     .servicio__main--p{
         justify-self: center;
+    }
+    .main__cartas:hover{
+        transform: scale(1.01);
     }
 
 }
