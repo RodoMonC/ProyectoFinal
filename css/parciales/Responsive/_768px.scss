@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px){
+
+    .header__titulo--li{
+        display: table;
+        justify-content: center;
+        margin: 3px;
+        border-radius: 10px;
+        justify-content: center;
+        background-color: #c1eff8;
+        text-align: center;
+        border: #c1eff8;
+    }
+    .equipo__main--div{
+        display:flex ;
+        flex-direction: column;
+    }
+    .equipo__main--nombre{
+        text-align: center;
+        align-items: center;
+    }
+    .sucursales_titulo{
+        text-align: center;
+    }
+    .footer__background{
+        width: 100%;
+        height: auto;
+    }
+    .contacto__form--comentario{
+        width: 600px;
+        height: 200px;
+    }
+    .footer__lista{
+        padding-bottom: 20px;
+    }
+    .contacto__form--fieldset{
+        width: 90%;
+    }
+    .main__divnoticias{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        align-content: center;
+    }
+    main div div {
+        margin-bottom: 13px;
+    }
+    .main__div__card3{
+        margin: 0%;
+    }
+    
+}

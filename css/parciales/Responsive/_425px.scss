@@ -1,0 +1,128 @@
+@media screen and (max-width: 425px) {
+    .header__titulo{
+        font-size: 140%;
+    }
+    .header__logo{
+        width: 20px;
+        height: 20px;
+    }
+    .header__titulo--li{
+        display: table;
+        justify-content: center;
+        margin: 3px;
+        border-radius: 10px;
+        justify-content: center;
+        background-color: #c1eff8;
+        text-align: center;
+        border: #c1eff8;
+    }
+    .contacto__form--fieldset{
+        width: 10px;
+    }
+
+    .equipo__main--div{
+        display:flex ;
+        flex-direction: column; 
+    }
+    .equipo__main--nombre{
+        text-align: center;
+        align-items: center;
+    }
+    .equipo__main--subdiv{
+        padding: 0%;
+        margin: 0%;
+    }
+    .equipo__main--descripcion{
+        margin-top: 20px;
+    }
+    .equipo__main--btn{
+
+        padding-top: 1rem;
+    }
+    .servicio__main--imagenes{
+        width: 100%;
+        padding-left: 10%;
+    }
+    .sucursales_titulo{
+        text-align: center;
+    }
+    .sucursales_direcciones{
+        border-width: 2px;
+    }
+    .sucursales__mapa{
+        width: 90%;
+    }
+
+    .footer__lista{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .footer__background{
+        width: 100%;
+        height: auto;
+    }
+
+    .contacto__form{
+        width: 100%;
+    }
+    .contacto__form--fieldset{
+        width: 100%;
+    }
+    .contacto__form--comentario{
+        width: 90%;
+        height: 150px;
+    }
+    .contacto__form--box{
+        margin-left: 1px;
+        width: 50%;
+        height: 30px;
+    }
+    .contacto__form--enviar{
+        font-size: 80%;
+    }
+    .contacto__form--borrar{
+        font-size: 80%;
+    }
+    .contacto__form--p{
+        margin: 0px;
+    }
+    
+    .main__divnoticias{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .contacto__form--div{
+        padding-left: 10px;
+    }
+    .contacto__div{
+        height: auto;
+    }
+    .main__div2{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        justify-content: center; 
+    }
+    main div div {
+        margin-bottom: 10px;
+    }
+
+    .header__logo{
+        width: 50px;
+        height: 50px;
+    }
+    .servicio__main{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .servicio__main--p{
+        justify-self: center;
+    }
+    .main__cartas:hover{
+        transform: scale(1.01);
+    }
+}

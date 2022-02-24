@@ -1,0 +1,22 @@
+.header__logo{
+    width: 50px;
+    height: 50px;
+}
+
+.header__titulo--items{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header__lista{
+    width: 100%;
+}
+.header__titulo--items:hover{
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    transition: all 0.4s;
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
+    border-radius: 20px;
+}

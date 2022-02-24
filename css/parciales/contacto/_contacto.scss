@@ -1,0 +1,38 @@
+.contacto__div{
+    height: 700px;
+    overflow: hidden;
+}
+.contacto__form--div{
+    width: 100%;
+}
+.contacto__form--fieldset{
+    position: relative;
+    background-color: #48cae4;
+    display: grid;
+    grid-template-columns: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 50%;
+}
+
+.contacto__form--legend{
+    text-align: center;
+}
+.contacto__form--nombre{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto__form--enviar{
+    margin-right: 35%;
+    font-size: 100%;
+    margin-top: 10px;
+}
+.contacto__form--borrar{
+    font-size: 100%;
+    margin-top: 10px;
+}
+.contacto__form--padding{
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,663 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.header__logo {
+  width: 50px;
+  height: 50px;
+}
+
+.header__titulo--items {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header__lista {
+  width: 100%;
+}
+
+.header__titulo--items:hover {
+  -webkit-transition: 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: orange;
+  border-radius: 20px;
+}
+
+.main__background {
+  background-color: #48cae4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#48cae4), to(#caf0f8));
+  background-image: linear-gradient(#48cae4, #caf0f8);
+  margin: 0%;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.main__div__card3 {
+  width: 100%;
+}
+
+.main__div--p {
+  color: #03045e;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.main__divnoticias {
+  padding-top: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.main__divnoticias--titulo {
+  color: #03045e;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+.main__divnoticias--titulo2 {
+  color: #03045e;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 130%;
+}
+
+.main__divnoticias--descrip {
+  text-align: justify;
+}
+
+.main__videos {
+  width: 100%;
+}
+
+.main__div2 {
+  width: 100%;
+}
+
+.main__cartas {
+  width: 100%;
+}
+
+.main__cartas:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background-color: lightsteelblue;
+}
+
+.contacto__div {
+  height: 700px;
+  overflow: hidden;
+}
+
+.contacto__form--div {
+  width: 100%;
+}
+
+.contacto__form--fieldset {
+  position: relative;
+  background-color: #48cae4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  width: 50%;
+}
+
+.contacto__form--legend {
+  text-align: center;
+}
+
+.contacto__form--nombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contacto__form--enviar {
+  margin-right: 35%;
+  font-size: 100%;
+  margin-top: 10px;
+}
+
+.contacto__form--borrar {
+  font-size: 100%;
+  margin-top: 10px;
+}
+
+.contacto__form--padding {
+  margin-bottom: 3rem;
+}
+
+.equipo__main--div {
+  background-color: #48cae4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#48cae4), to(#caf0f8));
+  background-image: linear-gradient(#48cae4, #caf0f8);
+}
+
+.equipo__main--subdiv {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.equipo__main--nombre {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #03045e;
+  font-size: 120%;
+  font-weight: bolder;
+  padding-left: 2rem;
+}
+
+.equipo__main--descripcion {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding-left: 1rem;
+  border: solid 2px black;
+  margin-left: 2rem;
+  background-color: #caf0f8;
+  margin-right: 2rem;
+  padding-right: 1rem;
+}
+
+.servicio__main--p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #03045e;
+  font-size: 120%;
+  font-weight: bolder;
+}
+
+.servicio__main--imagenes {
+  width: 500px;
+  height: 250px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.servicio__main {
+  width: 100%;
+}
+
+.servicio__div {
+  width: auto;
+}
+
+.scale-up-center:hover {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1.2) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1.2) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.sucursales__background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 3rem;
+}
+
+.sucursales_titulo {
+  font-size: 200%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #03045e;
+  font-weight: bolder;
+}
+
+.sucursales__mapa {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sucursales_tabla {
+  margin: auto;
+  width: 60%;
+}
+
+tr:hover {
+  background-color: rgba(183, 216, 63, 0.815);
+  font-weight: bold;
+}
+
+tr:hover .seleccionado {
+  background-color: #6bc4ee;
+  font-weight: bold;
+}
+
+.footer__cambio {
+  background-color: #48cae4;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#48cae4), to(#caf0f8));
+  background-image: linear-gradient(#48cae4, #caf0f8);
+}
+
+.footer__background {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+}
+
+.footer__lista {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-column-gap: 10%;
+          column-gap: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+}
+
+.footer__lista--div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__titulos {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #03045e;
+  font-size: 110%;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.footer__items {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #03045e;
+  font-size: 110%;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+.footer__items2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #03045e;
+  font-size: 110%;
+  padding-top: 7%;
+  text-decoration: none;
+}
+
+.footer__items--redes {
+  width: 35px;
+  height: 35px;
+  padding-right: 2px;
+}
+
+.footer__logo {
+  height: 25px;
+  width: 25px;
+}
+
+.footer__items:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0%;
+  position: relative;
+  background: #f8bf02;
+  -webkit-transition: width 0.7s ease 0s, left 0.7s ease 0s;
+  transition: width 0.7s ease 0s, left 0.7s ease 0s;
+  width: 0;
+}
+
+.footer__items:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.footer__items--redes:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media screen and (max-width: 1024px) {
+  .main__div--p {
+    font-size: 150%;
+  }
+  .footer__items--redes {
+    width: 35px;
+    height: 35px;
+  }
+  .equipo__main--nombre {
+    font-size: 150%;
+  }
+  .contacto__form--legend {
+    font-size: 170%;
+  }
+  .contacto__form--nombre {
+    font-size: 130%;
+  }
+  .contacto__form--comentario {
+    width: 800px;
+    height: 300px;
+  }
+  .contacto__form--label {
+    font-size: 130%;
+  }
+  .contacto__form--enviar {
+    font-size: 100%;
+  }
+  .contacto__form--p2 {
+    font-size: 130%;
+  }
+  .header__titulo--li {
+    display: table;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 3px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #c1eff8;
+    text-align: center;
+    border: #c1eff8;
+  }
+  .main__divnoticias {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 12px;
+    -webkit-column-gap: 15px;
+            column-gap: 15px;
+  }
+  .contacto__form--fieldset {
+    width: 70%;
+  }
+  .main__div__card3 {
+    margin-left: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__titulo--li {
+    display: table;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 3px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #c1eff8;
+    text-align: center;
+    border: #c1eff8;
+  }
+  .equipo__main--div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .equipo__main--nombre {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sucursales_titulo {
+    text-align: center;
+  }
+  .footer__background {
+    width: 100%;
+    height: auto;
+  }
+  .contacto__form--comentario {
+    width: 600px;
+    height: 200px;
+  }
+  .footer__lista {
+    padding-bottom: 20px;
+  }
+  .contacto__form--fieldset {
+    width: 90%;
+  }
+  .main__divnoticias {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 10px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  main div div {
+    margin-bottom: 13px;
+  }
+  .main__div__card3 {
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__titulo {
+    font-size: 140%;
+  }
+  .header__logo {
+    width: 20px;
+    height: 20px;
+  }
+  .header__titulo--li {
+    display: table;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 3px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #c1eff8;
+    text-align: center;
+    border: #c1eff8;
+  }
+  .contacto__form--fieldset {
+    width: 10px;
+  }
+  .equipo__main--div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .equipo__main--nombre {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .equipo__main--subdiv {
+    padding: 0%;
+    margin: 0%;
+  }
+  .equipo__main--descripcion {
+    margin-top: 20px;
+  }
+  .equipo__main--btn {
+    padding-top: 1rem;
+  }
+  .servicio__main--imagenes {
+    width: 100%;
+    padding-left: 10%;
+  }
+  .sucursales_titulo {
+    text-align: center;
+  }
+  .sucursales_direcciones {
+    border-width: 2px;
+  }
+  .sucursales__mapa {
+    width: 90%;
+  }
+  .footer__lista {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  .footer__background {
+    width: 100%;
+    height: auto;
+  }
+  .contacto__form {
+    width: 100%;
+  }
+  .contacto__form--fieldset {
+    width: 100%;
+  }
+  .contacto__form--comentario {
+    width: 90%;
+    height: 150px;
+  }
+  .contacto__form--box {
+    margin-left: 1px;
+    width: 50%;
+    height: 30px;
+  }
+  .contacto__form--enviar {
+    font-size: 80%;
+  }
+  .contacto__form--borrar {
+    font-size: 80%;
+  }
+  .contacto__form--p {
+    margin: 0px;
+  }
+  .main__divnoticias {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 10px;
+  }
+  .contacto__form--div {
+    padding-left: 10px;
+  }
+  .contacto__div {
+    height: auto;
+  }
+  .main__div2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main div div {
+    margin-bottom: 10px;
+  }
+  .header__logo {
+    width: 50px;
+    height: 50px;
+  }
+  .servicio__main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .servicio__main--p {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .main__cartas:hover {
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,54 @@
+@media screen and (max-width: 1024px) {
+    .main__div--p{
+        font-size: 150%;
+    }
+    .footer__items--redes{
+        width: 35px;
+        height: 35px;
+    }
+    .equipo__main--nombre{
+        font-size: 150%;
+    }
+    .contacto__form--legend{
+        font-size: 170%;
+    }
+    .contacto__form--nombre{
+        font-size: 130%;
+    }
+    .contacto__form--comentario{
+        width: 800px;
+        height: 300px;
+    }
+    .contacto__form--label{
+        font-size: 130%;
+    }
+    .contacto__form--enviar{
+        font-size: 100%;
+    }
+    .contacto__form--p2{
+        font-size: 130%;
+    }
+    .header__titulo--li{
+        display: table;
+        justify-content: center;
+        margin: 3px;
+        border-radius: 10px;
+        justify-content: center;
+        background-color: #c1eff8;
+        text-align: center;
+        border: #c1eff8;
+    }
+    .main__divnoticias{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        row-gap: 12px;
+        column-gap: 15px;
+    }
+    .contacto__form--fieldset{
+        width: 70%;
+    }
+    .main__div__card3{
+        margin-left: 50%;
+    }
+}
