@@ -1,0 +1,35 @@
+$todasfuentes:(
+    "titulos": sans-serif,
+    "parrafos": roboto,
+
+);
+
+$sizefont:(
+    "titulos": 300%,
+    "parrafo": 110%,
+    "titulos2": 140%,
+);
+@mixin centrado {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.estilo__titulo{
+    font-family: map-get($todasfuentes, titulos);
+    font-size: map-get($sizefont, titulos );
+    color: #221d52;
+    font-weight: bolder;
+    @include centrado;
+
+}
+.estilo__parrafo{
+    font-family: map-get($todasfuentes , parrafos);
+    font-size: map-get($sizefont, parrafo);
+    color: #221d52;
+    @include centrado;
+}
+.estilo__titulo2{
+    @extend .estilo__titulo;
+    font-size: map-get($sizefont , titulos2 );
+}

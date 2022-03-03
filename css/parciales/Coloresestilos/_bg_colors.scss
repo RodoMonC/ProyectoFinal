@@ -1,0 +1,11 @@
+$backcolors:(
+    "headerfooter": #2ec4b6,
+    "texto": #ffbf69,
+    "titulos": #cbf3f0,
+);
+@each $tipo, $color in $backcolors{
+.color--#{$tipo} {
+        background-color: $color;
+        width: 100%;
+    }
+}
