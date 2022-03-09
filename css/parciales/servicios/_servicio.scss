@@ -5,6 +5,20 @@
     font-weight: bolder;
 }
 
+$servicios:(
+  "gatos":url(../../../img/Serviciogato.jpg),
+  "perros":url(../../../img/servicioperro.jpg),
+  "aves": url(../../../img/aves.jpg),
+  "reptiles":url(../../../img/reptiles.jpg),
+  "otros":url(../../../img/Otros.jpg),
+)
+
+@each $mascota, $imagen in $servicios {
+  background-image: $imagen;
+  
+  
+}
+
 .servicio__main--imagenes{
     width: 500px;
     height: 250px;
@@ -12,6 +26,7 @@
     padding-bottom: 15px;
     justify-self: center;
 }
+
 .servicio__main{
     width: 100%;
 }
