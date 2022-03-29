@@ -1,6 +1,6 @@
 $todasfuentes:(
     "titulos": sans-serif,
-    "parrafos": roboto,
+    "parrafos": sans-serif,
 
 );
 
@@ -18,7 +18,7 @@ $sizefont:(
 .estilo__titulo{
     font-family: map-get($todasfuentes, titulos);
     font-size: map-get($sizefont, titulos );
-    color: #221d52;
+    color: #07a3a3;
     font-weight: bolder;
     @include centrado;
 

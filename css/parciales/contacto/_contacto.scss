@@ -7,7 +7,7 @@
 }
 .contacto__form--fieldset{
     position: relative;
-    background-color: #48cae4;
+    background-color: #07a3a3;
     display: grid;
     grid-template-columns: auto;
     border-width: 2px;
@@ -35,4 +35,9 @@
 }
 .contacto__form--padding{
     margin-bottom: 3rem;
+}
+
+.contacto__texto{
+    font-family: sans-serif;
+    font-weight: bolder;
 }

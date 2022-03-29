@@ -1,5 +1,5 @@
 $backcolors:(
-    "headerfooter": #2ec4b6,
+    "headerfooter": #A31f80,
     "texto": #ffbf69,
     "titulos": #cbf3f0,
 );
@@ -9,3 +9,10 @@ $backcolors:(
         width: 100%;
     }
 }
+@each $tipo, $color in $backcolors{
+    .textcolor--#{$tipo} {
+            color: $color;
+            width: 100%;
+        }
+    }
+    

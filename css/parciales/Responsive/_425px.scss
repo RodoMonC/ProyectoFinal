@@ -118,6 +118,8 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        row-gap: 2rem;
+        margin-bottom: 0;
     }
     .servicio__main--p{
         justify-self: center;
@@ -125,4 +127,55 @@
     .main__cartas:hover{
         transform: scale(1.01);
     }
+    .bg_gatos{
+        height: 250px;
+
+    }
+    .servicio__div{
+        height: 250px;
+    }
+    .servicio__main--imagenes{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        width: 425px;
+        height: 250px;
+        margin-left: 23px;
+        padding: 0;
+    }
+    .tracking-in-expand:hover {
+        -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                background-color: grey;
+                color: white;
+                width: 425px;
+                height: 250px;
+                margin: 0;
+      }
+      @-webkit-keyframes tracking-in-expand {
+        0% {
+          letter-spacing: -0.5em;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes tracking-in-expand {
+        0% {
+          letter-spacing: -0.5em;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          opacity: 0.7;
+        }
+      }
 }

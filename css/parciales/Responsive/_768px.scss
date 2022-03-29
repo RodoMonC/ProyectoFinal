@@ -47,5 +47,56 @@
     .main__div__card3{
         margin: 0%;
     }
-    
+
+    .tracking-in-expand:hover {
+        -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                background-color: grey;
+                color: white;
+                width: 425px;
+                height: 250px;
+      }
+      @-webkit-keyframes tracking-in-expand {
+        0% {
+          letter-spacing: -0.5em;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes tracking-in-expand {
+        0% {
+          letter-spacing: -0.5em;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          opacity: 0.7;
+        }
+      }
+      .servicio__main--imagenes{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        width: 425px;
+        height: 250px;
+        margin-left: 23px;
+        padding: 0;
+        row-gap: 200px;
+        padding: 0;
+        margin-bottom: 1;
+    }
+    .servicio__main{
+        padding-bottom: 1rem;
+        margin-bottom: 0%;
+        
+    }
 }
